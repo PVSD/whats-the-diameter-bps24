@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        circle cir1 = new circle(35.5);
+        System.out.println(cir1.diameter());
     }
 }
